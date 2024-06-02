@@ -1,0 +1,5 @@
+sudo passwd root
+su - root
+sudo nano /etc/ssh/sshd_config
+#PermitRootLogin yes (ino avaz koni be Yes byd)
+sudo usermod -a -G sudo #username
