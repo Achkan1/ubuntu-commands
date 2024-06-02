@@ -1,0 +1,6 @@
+docker-compose version
+docker-compose stop #Cname
+docker-compose rm #Cname
+docker-compose up -d 
+docker logs -f #Cname
+docker inspect #Cname
