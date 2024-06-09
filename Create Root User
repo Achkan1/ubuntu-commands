@@ -1,0 +1,6 @@
+adduser achkan
+#Enter Information 
+visudo
+#After # User privilege specification
+#root    ALL=(ALL:ALL) ALL  add below line
+achkan ALL=(ALL:ALL)ALL
