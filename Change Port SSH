@@ -1,0 +1,3 @@
+Nano /etc/ssh/sshd_config
+#edit port section type where 22 with your additional Port
+sudo systemctl restart ssh
