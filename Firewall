@@ -1,0 +1,6 @@
+#open port
+netstat -lntu
+sudo netstat -tulpn | grep 5223
+sudo ufw allow 5223/tcp
+nc -l 5223  #in baz mikone ta bbinish ta vaqti nabndi baz nshon mide
+netstat -na | grep :5223   # age hichi neshon nade yani basts
